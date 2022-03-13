@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+ <Description about="urn:mozilla:install-manifest">
+  <em:name>About Time</em:name>
+  <em:id>about-time@rjjiii.kmeleonbrowser.org</em:id>
+  <em:developer>Many thanks to the original author:</em:developer>
+  <em:developer>RealityRipple</em:developer>
+  <em:developer>Website: realityripple.com</em:developer> 
+  <em:creator>R.J.J. III</em:creator>
+  <em:homepageURL>https://github.com/rjjiii</em:homepageURL>
+  <em:translator>BabelZilla.org - This community is awesome.</em:translator>
+  <em:translator>Thank you to every active member, especially these guys:</em:translator>
+  <em:translator>[Arabic] Natty Dreed</em:translator>
+  <em:translator>[Catalan] jordis (jordis@softcatala.cat)</em:translator>
+  <em:translator>[Danish] Wodak</em:translator>
+  <em:translator>[English (Great Britain)] iann</em:translator>
+  <em:translator>[German] Markus Stadler</em:translator>
+  <em:translator>[Spanish (Spain)] RigoNet</em:translator>
+  <em:translator>[Spanish (Mexico)] Pedro Arana Matus</em:translator>
+  <em:translator>[French] Goofy</em:translator>
+  <em:translator>[Hebrew] jnfsmile</em:translator>
+  <em:translator>[Hungarian] WonderCsabo</em:translator>
+  <em:translator>[Armenian] Hrant Ohanyan (haysoft.org)</em:translator>
+  <em:translator>[Indonesian] Dhanny (kerupuknasi386.blogspot.co.id)</em:translator>
+  <em:translator>[Italian] AlexV_IT</em:translator>  
+  <em:translator>[Japanese] Anonymous</em:translator>
+  <em:translator>[Latvian] Edgars</em:translator>
+  <em:translator>[Macedonian] renegade06</em:translator>
+  <em:translator>[Dutch] markh van BabelZilla.org</em:translator>
+  <em:translator>[Polish] Leszek(teo)Życzkowski</em:translator>
+  <em:translator>[Portugese (Brazilian)] Marcelo Ghelman (ghelman.net)</em:translator>
+  <em:translator>[Portugese (Portugal)] Carlos Simão</em:translator>
+  <em:translator>[Romanian] micnic</em:translator>
+  <em:translator>[Russian] Пирятинский Виталий</em:translator>
+  <em:translator>[Slovak] Tomáš Taro</em:translator>
+  <em:translator>[Serbian] Republic of Srpska</em:translator>
+  <em:translator>[Swedish] glasspinne@gmx.com</em:translator>
+  <em:translator>[Turkish] DepressiveGuN</em:translator>
+  <em:translator>[Ukrainian] starjinsky</em:translator>
+  <em:translator>[Chinese (Simplified)] yfdyh000</em:translator>
+  <em:translator>[Chinese (Traditional)] Tang Kai Yiu</em:translator>
+  <em:version>1.7</em:version>
+  <em:type>2</em:type>
+  <em:description>Adds an About button to extensions in the Add-ons list.</em:description>
+  <!-- Firefox -->
+  <em:targetApplication>
+   <Description>
+    <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+    <em:minVersion>2.0</em:minVersion>
+    <em:maxVersion>50.*</em:maxVersion>
+   </Description>
+  </em:targetApplication>
+  <!-- kmeleon -->
+   </em:targetApplication>
+      <em:targetApplication>
+      <Description>
+        <em:id>{944df56f-c0ec-4d7b-94b6-f625c8cc96ea}</em:id>  
+        <em:minVersion>74.0</em:minVersion>
+        <em:maxVersion>77.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+  <em:iconURL>chrome://aboutaddons/skin/logo.png</em:iconURL>
+  <em:icon64URL>chrome://aboutaddons/skin/logo64.png</em:icon64URL>
+ </Description>
+</RDF>
