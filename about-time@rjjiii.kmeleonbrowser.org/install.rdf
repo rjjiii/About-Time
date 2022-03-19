@@ -58,7 +58,7 @@
         <em:maxVersion>77.*</em:maxVersion>
       </Description>
     </em:targetApplication>
-  </Description>
+
   <em:iconURL>chrome://aboutaddons/skin/logo.png</em:iconURL>
   <em:icon64URL>chrome://aboutaddons/skin/logo64.png</em:icon64URL>
  </Description>
